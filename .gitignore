@@ -1,0 +1,7 @@
+.parcel-cache
+dist
+# elm-package generated files
+elm-stuff
+node_modules
+# elm-repl generated files
+repl-temp-*

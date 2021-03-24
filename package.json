@@ -1,0 +1,23 @@
+{
+  "author": "Kohded",
+  "dependencies": {
+    "@parcel/transformer-elm": "^2.0.0-nightly.2254",
+    "autoprefixer": "^10.2.5",
+    "elm": "^0.19.1-5",
+    "elm-format": "^0.8.5",
+    "parcel": "^2.0.0-nightly.489",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "description": "Elm Tailwind CSS starter application.",
+  "keywords": [],
+  "license": "MIT",
+  "name": "elm-tailwindcss-starter",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier '**/*.{css,html,js,jsx,json,less,md,scss,ts,tsx,yml}' -c -w"
+  },
+  "version": "1.0.0"
+}
